@@ -1,0 +1,60 @@
+@keyframes exemplo3 {
+    0%{background-color: blueviolet;top:0;left:0}
+    25%{background-color: rgb(218, 199, 236);top:0;left:200}
+    50%{background-color: rgb(196, 151, 239);top:200;left:200}
+    75%{background-color: rgb(36, 30, 41);top:200;left:0}
+    100%{background-color: pink}
+}
+
+body{
+    background-color: rgb(206, 170, 239);
+}
+
+#teste {
+    background: blueviolet;
+    background: linear-gradient(white,pink);
+    background: -moz-linear-gradiente(white,pink);
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#teste1 {
+    background-color: blueviolet;
+    background: linear-gradient(-90deg,white,pink);
+    background: -moz-linear-gradiente(white,pink);
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#teste2 {
+    background-color: blueviolet;
+    background: linear-gradient(90deg,white,pink);
+    background: -moz-linear-gradiente(white,pink);
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-top-left-radius:0px ;
+    border-bottom-right-radius:0%;
+    
+}
+
+.exemplo3{
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    animation-name: exemplo3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
